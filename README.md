@@ -1,22 +1,10 @@
 <h1 align="center"> Projeto 2º Bimestre das Disciplinas de Infraestrutura e Serviços de Redes (PRIR/SRED e ISRE) <h1>
-## <img src = "https://user-images.githubusercontent.com/63050133/156777293-72a6e681-2582-4a9d-ad92-09d1181d47c7.gif" width = 33px height = 33px> Grupo 08
+<img src = "https://user-images.githubusercontent.com/63050133/156777293-72a6e681-2582-4a9d-ad92-09d1181d47c7.gif" width = 33px height = 33px> Grupo 08
  
 #### Integrantes
-
-<a href="https://ronaldo913.github.io/ImagensPMovel/colaboradores.html" target="_blank">
-    <img src="https://opencollective.com/Docusaurus/backers.svg?width=890">
-</a>
-
-<div>
-        <a href="" >
-            <img src="./Integrantes/ronaldo.jpeg" x="5" y="5" width="94" height="94" >
-        </a>
-        <a href="">
-            <img src="./Integrantes/mayara.jpeg" x="5" y="5" width="94" height="94" >
-        </a>
-        <a href="">
-            <img id="dimg" src="./Integrantes/waldemar.jpeg" x="5" y="5" width="94" height="94" border="border-radius: 65"></a>
-</div>
+ 
+| [<img src="./Integrantes/ronaldo.jpeg" width=115><br><sub>Ronaldo Noberto</sub>](https://github.com/camilafernanda) |  [<img src="./Integrantes/mayara.jpeg" width=115><br><sub>Mayara Silva</sub>](https://github.com/guilhermeonrails) |  [<img src="./Integrantes/waldemar.jpeg" width=115><br><sub>Waldemar Philype</sub>](https://github.com/alexfelipe) |
+| :---: | :---: | :---: |
 
 - Ronaldo Noberto dos Santos.
 - Mayara da Silva.
