@@ -3,12 +3,8 @@
  
 #### Integrantes
  
-| [<img src="./Integrantes/ronaldo.jpeg" width=115><br><sub>Ronaldo Noberto</sub>](https://github.com/camilafernanda) |  [<img src="./Integrantes/mayara.jpeg" width=115><br><sub>Mayara Silva</sub>](https://github.com/guilhermeonrails) |  [<img src="./Integrantes/waldemar.jpeg" width=115><br><sub>Waldemar Philype</sub>](https://github.com/alexfelipe) |
+| [<img src="./Integrantes/ronaldo.jpeg" width=115><br><sub>Ronaldo Noberto</sub>](https://github.com/camilafernanda) |  [<img src="./Integrantes/mayara.jpeg" width=115><br><sub>Mayara Silva</sub>](https://github.com/mayarinhan) |  [<img src="./Integrantes/waldemar.jpeg" width=115><br><sub>Waldemar Philype</sub>](https://github.com/WPLiraa) |
 | :---: | :---: | :---: |
-
-- Ronaldo Noberto dos Santos.
-- Mayara da Silva.
-- Waldemar Philype Feitosa Lira Neto.
 
 #### Informações:
 
