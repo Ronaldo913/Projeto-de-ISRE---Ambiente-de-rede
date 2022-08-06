@@ -6,14 +6,23 @@
 - Mayara da Silva.
 - Waldemar Philype Feitosa Lira Neto.
 
-```
-Informações:
-------------------------------------------------------------------------------
-|     subredes          |  rede          |  broadcast      | gateway         | 
-------------------------------------------------------------------------------
-| 192.168.13.[16-31]/28 | 192.168.13.16  |  192.168.13.31  |  192.168.13.17  |   
-------------------------------------------------------------------------------
-```
+#### Informações:
+
+<table align="center">
+    <tr>
+        <td align="center">subredes</td>
+        <td align="center">rede</td>
+        <td align="center">broadcast</td>
+        <td align="center">gateway</td>
+    </tr>
+    <tr>
+        <td>192.168.13.[16-31]/28</td>
+        <td>192.168.13.16</td>
+        <td>192.168.13.31</td>
+        <td>192.168.13.17</td>
+    </tr>
+</table>
+
 ```
 Tabela 1: Definições de endereços IPs da Rede e Nomes de Hosts
 ---------------------------------------------------------------------------------------------------
