@@ -1,6 +1,11 @@
 # Projeto 2º Bimestre das Disciplinas de Infraestrutura e Serviços de Redes (PRIR/SRED e ISRE)
 ## Grupo 08
 
+#### Integrantes
+- Ronaldo Noberto dos Santos.
+- Mayara da Silva.
+- Waldemar Philype Feitosa Lira Neto.
+
 ```
 Informações:
 ------------------------------------------------------------------------------
@@ -21,6 +26,6 @@ Tabela 1: Definições de endereços IPs da Rede e Nomes de Hosts
 | VM1-PC3     | 192.168.13.21   |   vm1-pc3     | vm1-pc3.grupo8-913.ifalara.net |     phil1      |
 | VM2-PC3     | 192.168.13.22   |   vm2-pc3     | vm2-pc3.grupo8-913.ifalara.net |     phil2      |
 | VM1-PC4     | 192.168.13.23   |   vm1-pc4     | vm1-pc4.grupo8-913.ifalara.net |     grup8      |
-| VM2-PC4     | 192.168.13.24   |   vm2-pc4     | vm2-pc4.grupo8-913.ifalara.net |     grup8      |
+| VM2-PC4     | 192.168.13.24   |   vm2-pc4     | vm2-pc4.grupo8-913.ifalara.net |     equi8      |
 ---------------------------------------------------------------------------------------------------
 ```
