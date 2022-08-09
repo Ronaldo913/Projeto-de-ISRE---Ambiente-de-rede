@@ -51,7 +51,7 @@ No lugar de <estudante>, no nosso caso, substituimos pelos os nossos nomes. Assi
 
 Verifcando a existência dos diretórios:
 
-// Colocar imagem verificando existência igual o do "João"
+<img src="Imagens/imgtal.png" alt="">
 
 ```
 /labredes/images/original
