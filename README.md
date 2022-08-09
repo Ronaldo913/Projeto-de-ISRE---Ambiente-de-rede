@@ -40,4 +40,4 @@
 ```
 ### Tutorial da configuração do ambiente de rede virtualizada
 
-* [Etapa 1](https://github.com/Ronaldo913/Projeto-de-ISRE---Ambiente-de-rede/blob/main/Etapa01) - Criando os locais de trabalho no terminal
+* [Etapa 1](https://github.com/Ronaldo913/Projeto-de-ISRE---Ambiente-de-rede/blob/main/Etapa01.md) - Criando os locais de trabalho no terminal
