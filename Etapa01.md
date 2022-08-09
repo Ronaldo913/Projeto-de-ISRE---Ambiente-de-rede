@@ -40,3 +40,10 @@ sudo mkdir labredes/VM
 sudo mkdir labredes/VM/913
 sudo mkdir labredes/VM/913/<estudante>
 ```
+
+No lugar de <estudante>, no nosso caso, substituimos pelos os nossos nomes:
+  
+* No PC 01: ronaldo
+* No PC 02: mayara
+* No PC 03: philype
+* No PC 04: grupo8
