@@ -34,6 +34,7 @@ ls -la
 
 Agora é preciso criar os diretórios e subdiretórios:
 
+
 ```md
 cd /
 sudo mkdir labredes/VM
@@ -48,4 +49,19 @@ No lugar de <estudante>, no nosso caso, substituimos pelos os nossos nomes. Assi
 * No PC 03: sudo mkdir philype
 * No PC 04: sudo mkdir grupo8
 
-Agora é preciso adicionar 
+Verifcando a existência dos diretórios:
+
+// Colocar imagem verificando existência igual o do "João"
+
+```
+/labredes/images/original
+/labredes/VM/913/<NomeDoAluno>
+```
+  
+Após devemos verificar se nos existe os seguintes arquivos no diretório /labredes/images/original:
+  
+```
+mini.iso
+ubuntu-20.04.4-desktop-amd64.iso
+ubuntu-22.04-live-server-amd64.iso
+```
