@@ -65,3 +65,18 @@ mini.iso
 ubuntu-20.04.4-desktop-amd64.iso
 ubuntu-22.04-live-server-amd64.iso
 ```
+  
+Verifique com:
+  
+```
+cd /labredes/images/original
+ls -la
+```
+  
+Caso não tenha você deverá imputar os seguintes comandos: 
+ 
+```
+scp aluno@192.168.101.10:~/Public/iso-images/mini.iso /labredes/images/original
+scp aluno@192.168.101.10:~/Public/iso-images/ubuntu-20.04.4-desktop-amd64.iso /labredes/images/original
+scp aluno@192.168.101.10:~/Public/iso-images/ubuntu-22.04-live-server-amd64.iso /labredes/images/original
+```
