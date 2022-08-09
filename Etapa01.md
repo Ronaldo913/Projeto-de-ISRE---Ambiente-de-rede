@@ -19,9 +19,9 @@ sudo mkdir /labredes //criando a pasta labredes
 É preciso criar a pasta images dentro de /labredes:
 
 ```
-cd /labredes //entrando em labredes 
-sudo mkdir imagens // criando subpasta images
-cd images //entrando em images
+cd /labredes        //entrando em labredes 
+sudo mkdir imagens  // criando subpasta images
+cd images           //entrando em images
 sudo mkdir original //criando subpasta original
 ```
 
@@ -41,9 +41,11 @@ sudo mkdir labredes/VM/913
 sudo mkdir labredes/VM/913/<estudante>
 ```
 
-No lugar de <estudante>, no nosso caso, substituimos pelos os nossos nomes:
+No lugar de <estudante>, no nosso caso, substituimos pelos os nossos nomes. Assim o comando anterior será o seguinte para cada PC:
   
-* No PC 01: ronaldo
-* No PC 02: mayara
-* No PC 03: philype
-* No PC 04: grupo8
+* No PC 01: sudo mkdir ronaldo
+* No PC 02: sudo mkdir mayara
+* No PC 03: sudo mkdir philype
+* No PC 04: sudo mkdir grupo8
+
+Agora é preciso adicionar 
