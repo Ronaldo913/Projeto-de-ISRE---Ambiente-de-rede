@@ -8,7 +8,7 @@ A partir daqui você aprenderá a configurar e executar um ambiente de rede virt
 
 <img src="Imagens/img1.png" alt="">
 
-##1.2 - Criar pastas
+## 1.2 - Criar pastas
 
 É preciso criar a pasta labredes na raiz / e subpastas:
 
