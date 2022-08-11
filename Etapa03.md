@@ -12,3 +12,5 @@ Senha da VM: adminifal
 ## 2 - Configuração estática do endereço IP na interface de rede
 
 ## 3 - Configuração da rede interna do VirtualBox
+
+## 4 - Testando o ping entre as duas VMs
