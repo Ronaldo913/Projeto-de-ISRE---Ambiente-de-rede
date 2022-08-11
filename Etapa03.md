@@ -45,4 +45,24 @@ Faça tal...
 
 ## 3 - Configuração da rede interna do VirtualBox
 
+Faça tal...
+
+<img src="Imagens/img17.jpg" alt="">
+
+Faça tal... 
+
+<img src="Imagens/img21.jpg" alt="">
+
+Faça tal...
+
+<img src="Imagens/img18.jpg" alt="">
+
+Faça tal...
+
+<img src="Imagens/img19.jpg" alt="">
+
+Faça tal...
+
+<img src="Imagens/img20.jpg" alt="">
+
 ## 4 - Testando o ping entre as duas VMs
