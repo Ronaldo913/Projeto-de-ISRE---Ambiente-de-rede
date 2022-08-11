@@ -20,3 +20,7 @@ Em arquivos vá em importar Appliance:
 E assim aparecerá na tela:
 
 <img src="Imagens/img4.png" alt="">
+
+Depois, você deverá importar o arquivo .ova na pastinha, colocar seu nome no asterisco verde e escolher a pasta com o seu nome que você criou nos passo passado:
+
+<img src="Imagens/img6.png" alt="">
