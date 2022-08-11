@@ -70,6 +70,9 @@ Depois de está no diretório do seu nome você deverá colocar os seguintes com
 ```
   
 <img src="Imagens/img7.png" alt="">
+A ordem desses comando não altera os fatores, ou seja, não necessariamente tem que nessa ordem:
+  
+<img src="Imagens/img8.png" alt="">
   
 Após devemos verificar se nos existe os seguintes arquivos no diretório /labredes/images/original:
   
