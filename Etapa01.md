@@ -57,6 +57,17 @@ Verifcando a existência dos diretórios:
 /labredes/images/original
 /labredes/VM/913/<NomeDoAluno>
 ```
+
+Depois de está no diretório do seu nome você deverá colocar os seguintes comando:
+  
+```
+ sudo chown -R nobody:nogroup /labredes
+ ls -la
+ sudo chgrp -R redes /labredes
+ sudo chmod -R 771 /labredes 
+ ls -la
+ getent group  #lista grupos: observe no fim da lista que os usuários também possuem grupos
+```
   
 Após devemos verificar se nos existe os seguintes arquivos no diretório /labredes/images/original:
   
