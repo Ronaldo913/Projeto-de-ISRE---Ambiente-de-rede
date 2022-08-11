@@ -9,3 +9,10 @@ sudo apt install virtualbox-ext-pack
 
 ## 2 - Importando VMs no VirtualBox
 
+No VitualBox vá em arquivo:
+
+<img src="Imagens/img3.png" alt="">
+
+Em arquivos vá em importar Appliance:
+
+<img src="Imagens/img5.png" alt="">
