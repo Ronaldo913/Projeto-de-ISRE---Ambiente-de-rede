@@ -26,7 +26,7 @@
 ```
    Tabela 1: Definições de endereços IPs da Rede e Nomes de Hosts
    ---------------------------------------------------------------------------------------------------
-   |  DESCRICAO  |  IP             |   hostname    |           FQDN                 |     aliase     |
+   |  DESCRICAO  |  IP              |   hostname    |           FQDN                 |     aliase     |
    ---------------------------------------------------------------------------------------------------
    | VM1-PC1     | 192.168.13.113   |   vm1-pc1     | vm1-pc1.grupo8-913.ifalara.net |     rona1      |
    | VM2-PC1     | 192.168.13.114   |   vm2-pc1     | vm2-pc1.grupo8-913.ifalara.net |     rona2      |
