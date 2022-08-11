@@ -16,3 +16,7 @@ No VitualBox vá em arquivo:
 Em arquivos vá em importar Appliance:
 
 <img src="Imagens/img5.png" alt="">
+
+E assim aparecerá na tela:
+
+<img src="Imagens/img4.png" alt="">
