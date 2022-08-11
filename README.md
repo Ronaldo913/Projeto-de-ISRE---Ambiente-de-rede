@@ -41,4 +41,4 @@
 ### Tutorial da configuração do ambiente de rede virtualizada
 
 * [Etapa 1](https://github.com/Ronaldo913/Projeto-de-ISRE---Ambiente-de-rede/blob/main/Etapa01.md) - Criando os locais de trabalho no terminal
-* [Etapa 2](https://github.com/Ronaldo913/Projeto-de-ISRE---Ambiente-de-rede/blob/main/Etapa02.md) - 
+* [Etapa 2](https://github.com/Ronaldo913/Projeto-de-ISRE---Ambiente-de-rede/blob/main/Etapa02.md) - Criando as máquinas virtuais
