@@ -74,6 +74,8 @@ A ordem desses comando não altera os fatores, ou seja, não necessariamente tem
   
 <img src="Imagens/img8.png" alt="">
   
+Só após esses comandos a pasta estará liberada para a importação das VMs.
+  
 Após devemos verificar se nos existe os seguintes arquivos no diretório /labredes/images/original:
   
 ```
