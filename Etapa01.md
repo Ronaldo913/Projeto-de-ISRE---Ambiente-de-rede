@@ -20,7 +20,7 @@ sudo mkdir /labredes //criando a pasta labredes
 
 ```
 cd /labredes        //entrando em labredes 
-sudo mkdir images  // criando subpasta images
+sudo mkdir images   // criando subpasta images
 cd images           //entrando em images
 sudo mkdir original //criando subpasta original
 ```
