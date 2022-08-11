@@ -69,6 +69,8 @@ Depois de está no diretório do seu nome você deverá colocar os seguintes com
  getent group  #lista grupos: observe no fim da lista que os usuários também possuem grupos
 ```
   
+<img src="Imagens/img7.png" alt="">
+  
 Após devemos verificar se nos existe os seguintes arquivos no diretório /labredes/images/original:
   
 ```
