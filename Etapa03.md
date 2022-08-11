@@ -55,7 +55,7 @@ Faça tal...
 
 Faça tal... 
 
-<img src="Imagens/img18.png" alt="">
+<img src="Imagens/img18.jpg" alt="">
 
 Faça tal...
 
@@ -67,6 +67,6 @@ Faça tal...
 
 Faça tal...
 
-<img src="Imagens/img21.jpg" alt="">
+<img src="Imagens/img21.png" alt="">
 
 ## 4 - Testando o ping entre as duas VMs
