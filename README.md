@@ -43,4 +43,4 @@
 * [Etapa 1](https://github.com/Ronaldo913/Projeto-de-ISRE---Ambiente-de-rede/blob/main/Etapa01.md) - Criando os locais de trabalho no terminal
 * [Etapa 2](https://github.com/Ronaldo913/Projeto-de-ISRE---Ambiente-de-rede/blob/main/Etapa02.md) - Criando as máquinas virtuais
 * [Etapa 3](https://github.com/Ronaldo913/Projeto-de-ISRE---Ambiente-de-rede/blob/main/Etapa03.md) - Configuração estática de endereço IP na interface de rede e da rede interna do virtual box
-* [Etapa 4](https://github.com/Ronaldo913/Projeto-de-ISRE---Ambiente-de-rede/blob/main/Etapa04.md) - 
+* [Etapa 4](https://github.com/Ronaldo913/Projeto-de-ISRE---Ambiente-de-rede/blob/main/Etapa04.md) - Roteiro SSH-Server
