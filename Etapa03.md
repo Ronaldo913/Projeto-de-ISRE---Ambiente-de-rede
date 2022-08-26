@@ -130,5 +130,5 @@ Logo em seguida, precisamos dar ping nas VMs para verificar se a conexão entre 
 
 Imagem 11 - Ping.
 
-<img src="Imagens/img21.jpg" alt="" width=600>
+<img src="Imagens/img21.png" alt="" width=600>
 
