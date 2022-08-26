@@ -3,11 +3,11 @@
 ```
 - Memória principal: 512 MB
 
-- Memória de vídeo:  16 MB
+- Memória de vídeo: 16 MB
 
-- CPU:               1
+- CPU: 1
 
-- Controladora:      VMSVGA
+- Controladora: VMSVGA
 
 - Porta SATA 0-
 
