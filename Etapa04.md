@@ -113,9 +113,13 @@ Fazendo um reboot na VM1 do PC1:
 
 <img src="Imagens/reboot.png" alt="" width=600>
 
+<a href="Imagens/ssh2.mp4" title="Download movie"> Vídeo do processo anterior </a>
+
 VM1 do PC1 reiniciando após o reboot:
 
 <img src="Imagens/reboot2.png" alt="" width=600>
 
 <img src="Imagens/reboot3.png" alt="" width=600>
+
+<a href="Imagens/reboot4.mp4" title="Download movie"> Vídeo da VM reiniciando </a>
 
