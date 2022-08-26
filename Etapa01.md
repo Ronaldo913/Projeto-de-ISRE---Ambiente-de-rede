@@ -67,12 +67,16 @@ No terminal de cada PC:
 * No PC 03: ```sudo mkdir philype```
 * No PC 04: ```sudo mkdir grupo8```
   
-Criando da pasta do usuário ronaldo:
+Criando a pasta do usuário ronaldo:
+  
+Imagem 03 - Criando pasta dos usuários.
   
 <img src="Imagens/" alt="">
 
 Verifcando a existência dos diretórios do usuário ronaldo:
 
+Imagem 04 - Verificando a existência dos diretórios.
+  
 <img src="Imagens/imgtal.png" alt="">
   
 Os comandos para a verificação:
@@ -88,27 +92,45 @@ Agora, vamos permitir que o usuário possa acessar os arquivos e pastas. Depois 
 sudo usermod -aG redes aluno
 ```
 
-Agora, com o comando ```chown``` modificamos o dono da pasta labredes para o usuario nobody e grupo nogroup
+Agora, com o comando ```chown``` modificamos o dono da pasta labredes para o usuario nobody e grupo nogroup:
   
 ```
  sudo chown -R nobody:nogroup /labredes
-```
-```
  ls -la
+```
+
+Em seguida, usamos o comando ```chgrp``` para alterarmos o proprietário de grupo do diretório /labredes para o grupo redes:
+  
+```
  sudo chgrp -R redes /labredes
- sudo chmod -R 771 /labredes 
- ls -la
- getent group  #lista grupos: observe no fim da lista que os usuários também possuem grupos
 ```
   
+Mais em frente, utilizamos o comando ```chmod``` para alterarmos as permissões do diretório para escrita pelos membros do grupo:
+  
+```
+ sudo chmod -R 771 /labredes 
+ ls -la
+```
+  
+Agora, para verificar no fim da lista os usuários em grupos digitamos o comando:
+  
+```
+ getent group  //lista grupos: observe no fim da lista que os usuários também possuem grupos
+```
+
+Imagem 05 - Permitindo acesso ao usuário.
+  
 <img src="Imagens/img7.png" alt="">
+  
 A ordem desses comando não altera os fatores, ou seja, não necessariamente tem que nessa ordem:
+  
+Imagem 06 - Curiosidades sobre esses comandos(específicos).
   
 <img src="Imagens/img8.png" alt="">
   
-Só após esses comandos a pasta estará liberada para a importação das VMs.
+Só após esses comandos as pastas estarão liberadas para a importação das VMs.
   
-Após devemos verificar se nos existe os seguintes arquivos no diretório /labredes/images/original:
+Após devemos verificar se existe os seguintes arquivos no diretório ```/labredes/images/original```:
   
 ```
 mini.iso
@@ -123,7 +145,7 @@ cd /labredes/images/original
 ls -la
 ```
   
-Caso não tenha você deverá imputar os seguintes comandos: 
+Caso não tenha, você deverá imputar os seguintes comandos: 
  
 ```
 scp aluno@192.168.101.10:~/Public/iso-images/mini.iso /labredes/images/original
