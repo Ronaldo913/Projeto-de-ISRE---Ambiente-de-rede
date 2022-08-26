@@ -20,7 +20,7 @@ Agora, é preciso criar a pasta labredes na raiz / e subpastas, mas antes de tud
 
 Imagem 02 - Verificando existência das pastas e subpastas.
 
-<img src="Imagens/Img01.png" alt="">
+<img src="Imagens/Img01.jpg" alt="" style="width:30">
 
 Agora vamos para a criação dos diretórios: 
 
