@@ -6,11 +6,29 @@ A partir daqui você aprenderá a configurar e executar um ambiente de rede virt
 
 É necessário, primeiramente, logar no terminal para dá procedimento no projeto.
 
+Imagem 01 - Logando em su redes.
+
 <img src="Imagens/img1.png" alt="">
+
+Após, só é inserir a senha: ```admin@Lab92```
+
+A senha fica invisível, então atente-se ao digitá-la. Caso erre, tente novamente.
 
 ## 1.2 - Criar pastas
 
-É preciso criar a pasta labredes na raiz / e subpastas:
+Agora, é preciso criar a pasta labredes na raiz / e subpastas, mas antes de tudo, é preciso verificar se elas já existem como na imagem a seguir, em caso de não ser a primeira vez configurando uma VM com esses passos.:
+
+Imagem 02 - Verificando existência das pastas e subpastas.
+
+<img src="Imagens/Img01.png" alt="">
+
+Agora vamos para a criação dos diretórios: 
+
+Primeiro vamos entrar na raiz:
+
+```cd /```
+
+Em seguida usamos o comando ```mkdir``` para a criação dos diretórios. Para a criação de labredes temos:
 
 ```
 sudo mkdir /labredes //criando a pasta labredes
