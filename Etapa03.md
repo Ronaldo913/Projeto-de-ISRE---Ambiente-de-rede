@@ -86,38 +86,46 @@ Imagem 07 - Arquivo 01-netcfg.yaml editado.
 
 <img src="Imagens/img14.jpg" alt="" width=600>
 
-Faça tal...
+Para salvar clique ctrcl+x, y e enter.
+
+#### Na VM 1 do PC4
+
+```
+network:
+    ethernets:
+        enp0s3:                               # nome da interface que está sendo configurada. Verifique com o comando 'ifconfig -a'
+            addresses: [192.168.13.119/28]    # IP e Máscara do Host.
+            gateway4: 192.168.13.113          # IP do Gateway
+            dhcp4: false                      # dhcp4 false -> cliente DHCP está desabilitado, logo o utilizará o IP do campo 'addresses'
+    version: 2
+```
+
+Em seguida, para salvar definitivamente na VM digite o seguinte comando:
+
+```sudo netplan apply```
+
+Imagem 08 - Usando comando apply.
 
 <img src="Imagens/img15.jpg" alt="" width=600>
 
-Faça tal...
+Agora vamos verificar a configuração das interfaces com o comando ```ifconfig -a```:
+
+Imagem 09 - Usando comando ifconfig -a.
 
 <img src="Imagens/img16.jpg" alt="" width=600>
 
-Faça tal...
-
-<img src="Imagens/antes da img17.png" alt="" width=600>
-
 ## 4 - Configuração da rede interna do VirtualBox
 
-Faça tal...
+A imagem 10 Ilustra as configurações para a importação das VMs:
+
+Imagem 10 - Configuração das NICs como modo ``rede interna``.
 
 <img src="Imagens/img17.jpg" alt="" width=600>
-
-Faça tal... 
-
-<img src="Imagens/img18.jpg" alt="" width=600>
-
-Faça tal...
-
-<img src="Imagens/img19.jpg" alt="" width=600>
-
-Faça tal...
-
-<img src="Imagens/img20.jpg" alt="" width=600>
-
-Faça tal...
 
 <img src="Imagens/img21.png" alt="" width=600>
 
 ## 5 - Testando o ping entre as duas VMs
+
+Logo em seguida, precisamos dar ping nas VMs para verificar se a conexão entre elas está funcionando. Esta conexão pode ser entre as VMs do PC sem a necessidade de um cabo, ou com a utilização de cabos:
+
+<img src="Imagens/ping.mp4" alt="">
