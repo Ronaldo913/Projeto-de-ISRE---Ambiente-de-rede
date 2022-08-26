@@ -57,7 +57,7 @@ systemctl status ssh
 netstat -an | grep LISTEN.  // verifique as conexões TCP na porta 22 se está como LINSTENING
 ```
 
-<img src="Imagens/listenig.png" alt="">
+<img src="Imagens/listening.png" alt="">
 
 ## 2.4 - Firewall:
 
