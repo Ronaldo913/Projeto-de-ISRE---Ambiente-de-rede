@@ -8,27 +8,32 @@ Para a configuração, deve ser seguidos os seguintes passos:
 
 Ir em arquivo e clicar na opção ```Host Network Manager```
 
-<img src="Imagens/" alt="" width=600>
+<img src="Imagens/imgh1.png" alt="" width=600>
 
 Após, você deve verificar a existência do ```vboxnet0```:
 
-<img src="Imagens/" alt="" width=600>
+<img src="Imagens/imgh2.png" alt="" width=600>
 
 Caso não tenha, você deverá criar o novo adaptador em ```criar```.
 
-Click na botão Propriedades --> Servidor DHCP --> click []Habilitar Servidor
+- Click em ```Propriedades``` 
+- Depois em```Servidor DHCP```
+- Após em ```[]Habilitar Servidor```
 
-Entre em uma VM e digite ifconfig -a (necessita do sudo apt install net-tools antes de ser usado)
+<img src="Imagens/imgh3.png" alt="" width=600>
 
-Verifique se na saída do comando há o nome do adaptador de rede que foi criado
+Entre em uma VM e digite ```ifconfig -a``` e verifique se na saída do comando há o nome do adaptador de rede que foi criado
 
-Desligue a VM com sudo poweroff
+Desligue sua VM e vá em:
 
-Click no botão configurações --> Rede
+- ```configurações```
+- ```Rede```
 
-Habilite um novo adaptador de rede clickando em Adaptador <n> --> [] Habilitar placa de rede
+<img src="Imagens/imgh4.png" alt="" width=600>
 
-Iniciar VM
+Habilite um novo adaptador de rede clickando em ```Adaptador <n>``` e depois em ```[] Habilitar placa de rede```.
+
+Logo após inicie a VM.
 
 Digite ifconfig -a
 
