@@ -132,3 +132,34 @@ Imagem 11 - Ping.
 
 <img src="Imagens/img21.png" alt="" >
 
+# Conexão Ponto a Ponto
+
+- Ubuntu Desktop: o ubuntu desktop possui uma interface gráfica de configuração própria para setar os endereços IPs. Porém ele continua usando o netplan em segundo plano. Para isso funcionar no arquivo de configuração de rede deve-se manter a entrada renderer:NetworkManager diferentemente do ubuntu-server que utiliza renderer:networkd
+Ou seja, se o gerenciador de rede do netplan (renderer) estiver setado para networkd no Ubuntu Desktop, um erro Wired Unmanaged error irá ser mostrado.
+
+O ```Netplan``` é o gerenciador de interfaces de rede do Ubuntu.
+
+O nosso arquvio de configuração está na pasta /etc/netplan/ e tem o nome ```01-network-manager-all.yaml```. Para o encontrarmos digitamos:
+
+```
+ifconfig -a
+cd /etc/netplan
+ls -la 
+cat /etc/netplan/01-network-manager-all.yaml
+```
+
+<img src="Imagens/img19.jpg" alt="" width=600>
+
+## Conexão dos cabos no switch
+
+<img src="Imagens/switch.png" alt="" width=600>
+
+## Modo Bridge
+
+Em todos os adaptadores das VMs é necessário alterar as configurações de rede para o modo Bridge.
+
+## Fazendo o ping por conexão ponto a ponto
+
+- Da Vmtal do PCtal para a VMtal do PCtal:
+
+<img src="Imagens/.jpg" alt="" width=600>
