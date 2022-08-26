@@ -122,10 +122,8 @@ Imagem 10 - Configuração das NICs como modo ``rede interna``.
 
 <img src="Imagens/img17.jpg" alt="" width=600>
 
-<img src="Imagens/img21.png" alt="" width=600>
-
 ## 5 - Testando o ping entre as duas VMs
 
 Logo em seguida, precisamos dar ping nas VMs para verificar se a conexão entre elas está funcionando. Esta conexão pode ser entre as VMs do PC sem a necessidade de um cabo, ou com a utilização de cabos:
 
-<img src="Imagens/ping.mp4" alt="">
+<video src="Imagens/ping.mp4"></video>
