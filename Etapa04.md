@@ -57,12 +57,44 @@ systemctl status ssh
 netstat -an | grep LISTEN.  // verifique as conexões TCP na porta 22 se está como LINSTENING
 ```
 
-<img src="Imagens/listening.png" alt="">
+<img src="Imagens/listening.png" alt="" width=600>
 
 ## 2.4 - Firewall:
 
-para ativar o firewall:
+Para garantir o funcionamento correto do controle de acesso devemos configurar o firewall para permitir conexões remota via protocolo SSH, na porta 22.
+
+```
+sudo ufw allow ssh    // ativa o ssh no firewall UFW do ubuntu.
+sudo ufw status
+```
+
+<img src="Imagens/allow.png" alt="" width=600>
+
+Para ativar o firewall:
+
+```
+sudo ufw enable
+```
+
+<img src="Imagens/enable.png" alt="" width=600>
 
 ## 2.5 - Criando usuários:
+
+Para criar um usuário é preciso usar o comando:
+
+```
+sudo adduser <usuario>   // No lugar de <usuario> imputar o nome do usuário
+```
+
+### No PC4
+
+- No PC1: ```sudo adduser ronaldo```
+- No PC2: ```sudo adduser mayara```
+- No PC3: ```sudo adduser phylipe```
+- No PC4: ```sudo adduser grupo8```
+
+Imagem tal - Adicionando usuário ao PC4.
+
+<img src="Imagens/adduser.png" alt="" width=600>
 
 ## 3 - Acessando uma VM remotamente:
