@@ -150,15 +150,15 @@ cat /etc/netplan/01-network-manager-all.yaml
 
 <img src="Imagens/img19.jpg" alt="" width=600>
 
-## Conexão dos cabos no switch
+## 1 - Conexão dos cabos no switch
 
 <img src="Imagens/switch.png" alt="" width=600>
 
-## Modo Bridge
+## 2 - Modo Bridge
 
 Em todos os adaptadores das VMs é necessário alterar as configurações de rede para o modo Bridge.
 
-## Fazendo o ping por conexão ponto a ponto
+## 3 - Fazendo o ping por conexão ponto a ponto
 
 - Da Vmtal do PCtal para a VMtal do PCtal:
 
