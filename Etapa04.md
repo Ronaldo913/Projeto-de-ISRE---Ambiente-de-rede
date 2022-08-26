@@ -98,3 +98,24 @@ Imagem tal - Adicionando usuário ao PC4.
 <img src="Imagens/adduser.png" alt="" width=600>
 
 ## 3 - Acessando uma VM remotamente:
+
+Para acessar uma VM remotamente pelo SSH é preciso digitar o seguinte comando:
+
+```
+ssh <user>@<ipServidorRemoto>
+```
+
+Conexão SSH da VM2 do PC2 para a VM1 do PC1:
+
+<img src="Imagens/ssh.png" alt="" width=600>
+
+Fazendo um reboot na VM1 do PC1:
+
+<img src="Imagens/reboot.png" alt="" width=600>
+
+VM1 do PC1 reiniciando após o reboot:
+
+<img src="Imagens/reboot2.png" alt="" width=600>
+
+<img src="Imagens/reboot3.png" alt="" width=600>
+
