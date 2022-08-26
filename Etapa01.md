@@ -20,7 +20,7 @@ Agora, é preciso criar a pasta labredes na raiz / e subpastas, mas antes de tud
 
 Imagem 02 - Verificando existência das pastas e subpastas.
 
-<img src="Imagens/Img01.jpg" alt="" style="width:30">
+<img src="Imagens/Img01.jpg" alt="" height=130 width=600>
 
 Agora vamos para a criação dos diretórios: 
 
@@ -34,7 +34,7 @@ Em seguida usamos o comando ```mkdir``` para a criação dos diretórios. Para a
 sudo mkdir /labredes //criando a pasta labredes
 ```
 
-É preciso criar a pasta images dentro de /labredes:
+Prosseguindo, é preciso criar a pasta ```images``` e ```original``` dentro de /labredes:
 
 ```
 cd /labredes        //entrando em labredes 
@@ -50,36 +50,50 @@ cd original
 ls -la
 ```
 
-Agora é preciso criar os diretórios e subdiretórios:
-
+Voltando para o diretório ```labredes```, precisamos criar os diretórios referentes aos usuários da máquina em questão:
 
 ```md
 cd /
 sudo mkdir labredes/VM
 sudo mkdir labredes/VM/913
-sudo mkdir labredes/VM/913/<estudante>
+sudo mkdir labredes/VM/913/<estudante> //substituir <estudante> pelo o nome que quiser imputar
 ```
 
-No lugar de <estudante>, no nosso caso, substituimos pelos os nossos nomes. Assim o comando anterior será o seguinte para cada PC:
+No lugar de <estudante>, no nosso caso, como são 4 PCs com 4 usuários, substituimos pelos os nossos nomes. Assim o comando anterior será o seguinte para cada PC:
+No terminal de cada PC:
   
-* No PC 01: sudo mkdir ronaldo
-* No PC 02: sudo mkdir mayara
-* No PC 03: sudo mkdir philype
-* No PC 04: sudo mkdir grupo8
+* No PC 01: ```sudo mkdir ronaldo```
+* No PC 02: ```sudo mkdir mayara```
+* No PC 03: ```sudo mkdir philype```
+* No PC 04: ```sudo mkdir grupo8```
+  
+Criando da pasta do usuário ronaldo:
+  
+<img src="Imagens/" alt="">
 
-Verifcando a existência dos diretórios:
+Verifcando a existência dos diretórios do usuário ronaldo:
 
 <img src="Imagens/imgtal.png" alt="">
+  
+Os comandos para a verificação:
 
 ```
 /labredes/images/original
 /labredes/VM/913/<NomeDoAluno>
 ```
 
-Depois de está no diretório do seu nome você deverá colocar os seguintes comando:
+Agora, vamos permitir que o usuário possa acessar os arquivos e pastas. Depois de está no diretório do seu nome, é necessário adicionar os usuários ao grupo redes:
+  
+```
+sudo usermod -aG redes aluno
+```
+
+Agora, com o comando ```chown``` modificamos o dono da pasta labredes para o usuario nobody e grupo nogroup
   
 ```
  sudo chown -R nobody:nogroup /labredes
+```
+```
  ls -la
  sudo chgrp -R redes /labredes
  sudo chmod -R 771 /labredes 
