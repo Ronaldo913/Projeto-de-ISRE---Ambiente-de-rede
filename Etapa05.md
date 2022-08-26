@@ -33,28 +33,16 @@ Desligue sua VM e vá em:
 
 Habilite um novo adaptador de rede clickando em ```Adaptador <n>``` e depois em ```[] Habilitar placa de rede```.
 
-Logo após inicie a VM.
+Logo após inicie a VM e digite o comando ```ifconfig -a```e verifique se na saída do comando há o nome do adaptador de rede que foi criado:
 
-Digite ifconfig -a
+<img src="Imagens/imgh7.png" alt="" width=600>
 
-Verifique se na saída do comando há o nome do adaptador de rede que foi criado
-
-Execute cd /etc/netplan/
-
-sudo nano <nome_do_arquivo>.yaml
+Execute sudo nano /etc/netplan/01-netcfg.yaml
   
-  Adicione no arquivo:
+Adicione no arquivo ```01-netcfg.yaml```:
 
-<nome_adaptador_de_rede>:
+   ```dhcp4: true```
+   
+<img src="Imagens/imgh6.png" alt="" width=600>
 
-   dhcp4: true
-
-Execute sudo netplan apply
-
-Verifique no ifconfig -a se as mudanças deram certo
-
-Abrir terminal do pc (sem ser da vm)
-
-ssh <user>@<ip>
-  
-  imagens e testes
+Execute crtl+x, yes e enter e depois insira o comando ```sudo netplan apply``` para salvar as informações imputadas.
