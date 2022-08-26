@@ -8,7 +8,7 @@ sudo nano /etc/hosts
 
 Depois de entrar, só é editar conforme a imagem abaixo:
 
-<img src="Imagens/estático.png" alt="">
+<img src="Imagens/estático.png" alt="" width=700>
 
 ## 1 - Acessando uma VM remotamente:
 
