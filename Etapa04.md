@@ -11,7 +11,7 @@ Seguindo a tabela da página inicial, antes de criar os novos usuários, temos q
 - VM1: ```sudo hostnamectl set-hostname rona1```
 - VM2: ```sudo hostnamectl set-hostname rona2```
 
-<img src="Imagens/" alt="">
+<img src="Imagens/aaa2.png" alt="">
 
 A mesma coisa foi feita nas outras máquinas:
 
