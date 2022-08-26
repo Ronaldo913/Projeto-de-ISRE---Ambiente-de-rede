@@ -71,7 +71,7 @@ Criando a pasta do usuário ronaldo:
   
 Imagem 03 - Criando pasta dos usuários.
   
-<img src="Imagens/" alt="">
+<img src="Imagens/aaaa.png" alt="">
 
 Verifcando a existência dos diretórios do usuário ronaldo:
 
