@@ -45,3 +45,7 @@
 * [Etapa 3](https://github.com/Ronaldo913/Projeto-de-ISRE---Ambiente-de-rede/blob/main/Etapa03.md) - Configuração estática de endereço IP na interface de rede e da rede interna do virtual box
 * [Etapa 4](https://github.com/Ronaldo913/Projeto-de-ISRE---Ambiente-de-rede/blob/main/Etapa04.md) - Roteiro SSH-Server
 * [Etapa 5](https://github.com/Ronaldo913/Projeto-de-ISRE---Ambiente-de-rede/blob/main/Etapa05.md) - Acesso via Host-Only
+
+### Configurações de Hardware 
+ 
+* [Informações do Hardware](https://github.com/Ronaldo913/Projeto-de-ISRE---Ambiente-de-rede/blob/main/Etapa06.md) 
