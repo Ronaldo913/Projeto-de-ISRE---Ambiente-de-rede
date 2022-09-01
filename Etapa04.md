@@ -90,7 +90,7 @@ sudo adduser <usuario>   // No lugar de <usuario> imputar o nome do usuário
 
 - No PC1: ```sudo adduser ronaldo```
 - No PC2: ```sudo adduser mayara```
-- No PC3: ```sudo adduser phylipe```
+- No PC3: ```sudo adduser waldemar```
 - No PC4: ```sudo adduser grupo8```
 
 Imagem tal - Adicionando usuário ao PC4.
