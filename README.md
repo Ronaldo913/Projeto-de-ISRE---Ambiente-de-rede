@@ -49,7 +49,7 @@
 
 ### Configurações de Hardware 
  
-* [Informações do Hardware](https://github.com/Ronaldo913/Projeto-de-ISRE---Ambiente-de-rede/blob/main/Etapa07.md) 
+* [Informações de Hardware](https://github.com/Ronaldo913/Projeto-de-ISRE---Ambiente-de-rede/blob/main/Etapa07.md) 
 
 <!-- <a src=>PDF dos Pcs, switch e cabos usados<a/> -->
 - <a href="Redes.pdf">PDF dos Pcs, switch e cabos usado</a>
